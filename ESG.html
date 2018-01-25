@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>EMAIL STYLE GUIDE CA</title>
+    <link rel="shortcut icon" href="images/faviconicon.png" />
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/" rel="stylesheet"><!-- ALL STYLE IS INLINED AND NEEDS A CSS FILE -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,6 +30,8 @@
           </div>
           <div class="col-lg-6">
             <ul>
+              <li>Tag Info</li>
+              <li>Request Details</li>
               <li>Cigar Team</li>
               <li>Editors Pick</li>
               <li>Recurring Celebs</li>
@@ -45,23 +48,53 @@
 
       <div class="row">
         <div class="col-lg-12">
-          <h1 style="font-family: monospace; font-size: 50px; border-bottom: 2px solid #920202; width: 1000px; margin-bottom:50px;">CA Newsletter Style Guide</h1>
+          <h1 style="font-family: monospace; font-size: 50px; border-bottom: 2px solid #920202; width: 800px; margin-bottom:50px;">CA Newsletter Style Guide</h1>
+          <p>Goal: Maintain a consistent look and feel for all email messages that come from the College, matching the styles employed on Mshankens website and print pieces.</p>
         </div>
       </div>
 
-       <div class="row">
-        <div class="col-lg-12">
-          <h2 style="font-size:50px; font-family: monospace; margin-top: 0px; margin-bottom:25px;">Tags:</h2>
-          <h3 style="color:#5d4537; text-decoration:underline;">Images</h3>
-          <p>Why are images important in emails? Good question title, let’s find out exactly why you should have eye catching images inside your email campaign.
-          Visuals are an important part of any email campaign, whether you are selling your coolest new set of clothing or offering one of your previous customers a ‘CRAZY WEEKEND DISCOUNT’ you need something to grab your readers’ attention. The main image should be near the top of the email so it’s one of the first things your readers see. The main Graphic should include all the information you want to portray and a little more. For example, if you are selling a new product the graphic will need to be visually appealing to your new product with space that will act as a call to action.</p><!-- copy is just for now: update later on -->
-          <p><strong>Default Style is Very important inorder for text to displays properly!!</strong></p>
-          <code class="code_section" style="padding: 3px 4px; background-color: #5d4537; color: #ffffff; border-radius: 0px;">img src="images/IMAGE FILE"</code>
-        </div>
-      </div>
       <div class="row">
         <div class="col-lg-12">
-          <p style="text-align:center; margin-top:20px; margin-bottom:0px;" class=""><strong>There are two options for viewing images in emails. You can have images automatically load when an email is opened or you can choose to manually load your images per email.</strong></p>
+          <h2 style="font-size:50px; font-family: monospace; margin-top: 0px; margin-bottom:25px;">Tags:</h2>
+          <p>Below are a few open source site for editors or anyone else looking for more info on HTML tags. <br/><a href="https://www.w3schools.com/tags/ref_byfunc.asp" target="blank" style="color:#000000; font-weight:bold; text-transform:uppercase;">Link for more info on tags</a></p>
+        </div><!-- col-lg-12 -->
+      </div><!-- row -->
+
+       <div class="row">
+        <div class="col-lg-12">
+          <h3 style="color:#5d4537; text-decoration:underline;">Images</h3>
+          <p style="margin-top:10px;">Why are images important in emails? Good question title, let’s find out exactly why you should have eye catching images inside your email campaign. Visuals are an important part of any email campaign, whether you are selling your coolest new set of clothing or offering one of your previous customers a ‘CRAZY WEEKEND DISCOUNT’ you need something to grab your readers’ attention. The main image should be near the top of the email so it’s one of the first things your readers see. The main Graphic should include all the information you want to portray and a little more. For example, if you are selling a new product the graphic will need to be visually appealing to your new product with space that will act as a call to action.</p><!-- copy is just for now: update later on -->
+          <h4 style="margin-top:25px;">Company Image URL Types</h4>
+          <p>Our Company uses two server services which are  Amazon &amp; Critical Impact. Services like these have a image directory's. After uploading the image to the service(amazon or portal) add the file name of the image behind the last backslash( / ) and your image will appear. If in any case your image does not display please check the service you are using. If you are using Amazon make sure to "grant Public read access to this object". IF you do not update the "Manage public permissions" your image WILL NOT DISPLAY. </p>
+          <p class="image_title" style="margin-top:15px; margin-bottom:0px;">Amazon URL:</p>
+          <code class="code_section" style="padding: 3px 4px; background-color: #5d4537; color: #ffffff; border-radius: 3px;">https://s3.amazonaws.com/assets.mshanken.com/promo/images/</code>
+          <p class="image_title" style="margin-top:5px; margin-bottom:0px; font-weight:bold;">Uploading Images to Amazon Service NOTE:</p>
+          <p>When Uploading any IMAGE to Amazon remember to "grant Public read access to this object". If you <strong>DO NOT</strong> update the "Manage public permissions" your image <strong>WILL NOT DISPLAY</strong>!</p>
+          <!-- <h1>Step 1</h1>
+          <img src="" alt="">
+          <h1>Step 2</h1>
+          <img src="" alt="">
+          <h1>Step 3</h1>
+          <img src="" alt="">
+          <h1>Step 4</h1>
+          <img src="" alt=""> -->
+          <p class="image_title" style="margin-top:15px; margin-bottom:0px;">Protal URL:</p>
+          <code class="code_section" style="padding: 3px 4px; background-color: #5d4537; color: #ffffff; border-radius: 3px;">http://portal.criticalimpact.com/user/25682/image/</code>
+          <p class="image_title" style="margin-top:5px; margin-bottom:0px; font-weight:bold;">Uploading Images to Critical Impact Service NOTE:</p>
+          <p>The proper way to upload images to Critical Impact AND KEEP Template styles</p>
+          <!-- <h1>Step 1</h1>
+          <img src="" alt="">
+          <h1>Step 2</h1>
+          <img src="" alt="">
+          <h1>Step 3</h1>
+          <img src="" alt="">
+          <h1>Step 4</h1>
+          <img src="" alt=""> -->
+        </div><!-- col-lg-12 -->
+      </div><!-- row -->
+      <div class="row">
+        <div class="col-lg-12">
+          <p style="margin-top:20px; margin-bottom:0px;" class=""><strong style="color:red;">NOTE: </strong>There are two options for viewing images in emails including desktop &amp; mobiles devices. You can have images automatically load when an email is opened or you can choose to manually load your images per email.</p>
         </div><!-- col-lg-12 -->
         <div class="col-lg-5">
           <p class="noalt_text" style="text-align:center; margin-top:20px;">Email Preview <span style="font-weight:bold;">WITHOUT IMAGES</span></p>
@@ -72,7 +105,7 @@
         </div><!-- col-lg-2 -->
         <div class="col-lg-5">
           <p class="alt_text" style="text-align:center; margin-top:20px;">Email Preview <span style="font-weight:bold;">WITH IMAGES</span></p>
-          <img src="images/Celeb-Templat-image.jpg" alt="IMAGES DISPLAYING" style="" width="450">
+          <img src="images/Celebs-Template-image4.jpg" alt="IMAGES DISPLAYING" style="" width="450">
         </div><!-- col-lg-5 -->
       </div><!-- row -->
 
@@ -80,10 +113,12 @@
         <div class="col-lg-12">
           <h3 style="color:#5d4537; text-decoration:underline;">Alt</h3>
           <p>Alt text (alternative text) is a word or phrase that can be inserted as an attribute in an HTML (Hypertext Markup Language) document to tell Web site viewers the nature or contents of an image. The alt text appears in a blank box that would normally contain the image.</p>
-          <p>How &amp; Why Missing Alt Tags Can Effect Your Email/Newsletter: </p>
+          <p>How &amp; Why Missing Alt Tags Can Effect Your Email/Newsletter:</p>
+          <p><strong>Request</strong> Shanken Emails consist of image based emails.</p>
           <code class="code_section" style="padding: 3px 4px; background-color: #5d4537; color: #ffffff;">img src="images/IMAGE FILE" alt="ADD ALT TEXT/COPY HERE!!"</code>
         </div><!-- col-lg-12 -->
       </div><!-- row -->
+
       <div class="row">
         <div class="col-lg-5">
           <p class="noalt_text" style="text-align:center; margin-top:20px;">Email Preview <span style="font-weight:bold;">WITHOUT Alt</span></p>
@@ -99,13 +134,33 @@
       </div><!-- row -->
       <br/>
 
-       <div class="row">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 style="color:#5d4537; text-decoration:underline;">Inlined style</h3>
+          <p>CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once. External stylesheets are stored in CSS files.</p><!-- copy is just for now: update later on -->
+          <p>Image Based Emails Style: AKA OBI Industries. All have this line of style "color:#000000; text-align:center; font-size:15px; font-family:Helvetica, Arial, sans-serif;". These properties make sure your Users can view Text when images are displayed off. If your image design is displaying broken for any reason your users are still capable of reading the message and understanding why you sent them an email. </p>
+          <p>After following the Brand Websites I reused every element including Title, Editor, Date, Content</p>
+          <code class="code_section" style="padding: 3px 4px; background-color: #5d4537; color: #ffffff; border-radius: 3px;">img src="images/IMAGE FILE" alt="ALT TAG HERE" style="color:#000000; text-align:center; font-size:15px; font-family:Helvetica, Arial, sans-serif;"</code>
+        </div><!-- col-lg-12 -->
+      </div><!-- row -->
+
+      <div class="row">
         <div class="col-lg-12">
           <h3 style="color:#5d4537; text-decoration:underline;">A href</h3>
           <p>The URL of the link. Possible values: An absolute URL - points to another web site (like href="http://www.example.com/default.htm"), A relative URL - points to a file within a web site (like href="default.htm"), Link to an element with a specified id within the page (like href="#top"), Other protocols (like https://, ftp://, mailto:, file:, etc..)</p><!-- copy is just for now: update later on -->
-          <code class="code_section" style="padding: 3px 4px; background-color: #5d4537; color: #ffffff; border-radius: 0px;">a href="" img src="images/IMAGE FILE" alt="ALT TAG HERE" style="color:#000000; text-align:center; font-size:15px; font-family:Helvetica, Arial, sans-serif;"</code>
-        </div>
-      </div>
+          <code class="code_section" style="padding: 3px 4px; background-color: #5d4537; color: #ffffff; border-radius: 3px;">a href="" img src="images/IMAGE FILE" alt="ALT TAG HERE"</code>
+        </div><!-- col-lg-12 -->
+      </div><!-- row -->
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 style="color:#5d4537; text-decoration:underline;">Footer</h3>
+          <p>Option 1: </p><!--  -->
+          <p>Option 2: </p><!--  -->
+          <p>Option 3: </p><!--  -->
+          <code class="code_section" style="padding: 3px 4px; background-color: #5d4537; color: #ffffff; border-radius: 3px;">a href="" img src="images/IMAGE FILE" alt="ALT TAG HERE"</code>
+        </div><!-- col-lg-12 -->
+      </div><!-- row -->
 
     </div><!-- container -->
 
